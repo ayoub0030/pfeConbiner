@@ -1,0 +1,157 @@
+/* good */
+.admin-container {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 150vh;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+}
+.user-info {
+  margin-bottom: 20px;
+}
+
+.user-info h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.add-user-form {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.add-user-form input {
+  width: 20%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #218838;
+}
+
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.search-section input[type="text"] {
+  width: 40%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.search-section button {
+  padding: 8px 16px;
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  cursor: pointer;
+}
+
+.search-section button:hover {
+  background-color: #e0a800;
+}
+
+table {
+  width:90%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+}
+
+table th {
+  background-color:rgb(25, 4, 130);
+  color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+
+.action-buttons  {
+  padding: 6px 12px;
+  
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.modifier {
+  color: #0db47c;
+  margin-right: 12px;
+}
+.supprimer {
+  color: rgb(223, 21, 21);
+}
+
+.action-buttons :hover {
+ color: #a3a3a3;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: center; /* Center text and content in the table cells */
+}
+
+table th {
+  background-color: rgb(25, 4, 130);
+  color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  gap: 12px; /* Space between the buttons */
+}
+
+.modifier {
+  color: #0db47c;
+}
+
+.supprimer {
+  color: rgb(223, 21, 21);
+}
+
+.action-buttons :hover {
+  color: #a3a3a3;
+}
