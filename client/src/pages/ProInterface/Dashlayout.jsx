@@ -41,7 +41,7 @@ const Dashlayout = () => {
     <section className="h-wrapper" style={{ background: 'black' }}>
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
-        <Link to="/">
+        <Link to="/pro-interface">
         <img src="../../public/logo.png" alt="logo" width={100} />
         </Link>
         {/* menu */}

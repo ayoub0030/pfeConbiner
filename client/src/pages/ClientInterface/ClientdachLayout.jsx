@@ -57,7 +57,7 @@ const ClientdachLayout = () => {
             >
               <NavLink to="/ClientInterface">Services</NavLink>
               <NavLink to="/404">chat</NavLink>
-              <NavLink to="/404">Mes Demande</NavLink>
+              <NavLink to="/demande">Mes Demande</NavLink>
               <NavLink to="/ClientProfile">Profile</NavLink>
 
               <button

@@ -28,7 +28,8 @@ import Listeservices from "../src/pages/Listeservices/Listeservices"
 import ClientdachLayout from "./pages/ClientInterface/ClientdachLayout";
 import Categorie from "./pages/Categorie/Categorie";
 import ClientProfile from "./pages/ClientInterface/ClientProfile";
-
+import Demande from "./pages/ClientInterface/Demande";
+import ProDemande from './pages/ProInterface/ProDemande';
 function App() {
   const queryClient = new QueryClient();
   const ProtectedRoute = ({ element, requiredRole, redirectTo }) => {
@@ -63,7 +64,8 @@ function App() {
           <Route path="/404" element={<Page404 />} />
 
           <Route path="/ClientdachLayout" element={<ClientdachLayout />} />
-          
+          <Route path="/Demande" element={<Demande />} />
+
           <Route path="/ClientInterface" element={<ClientInterface/>} />
           <Route path="/ClientProfile" element={<ClientProfile/>} />
 {/* 
@@ -93,8 +95,9 @@ function App() {
 
 <Route  element={<Dashlayout/>}>
 <Route path="/pro-interface" element={<ProInterface />} />
+<Route path="/pro-interface/requests" element={<ProDemande />} />
 
-  {/* <Route
+  {/* <Route;
   path="/pro-interface"
   element={
     <ProtectedRoute
@@ -102,7 +105,7 @@ function App() {
       requiredRole="pro"
       redirectTo="/404" 
     />}>
-   </Route> */}
+   </Route;> */}
    <Route path="/pro-interface/Ajouter-Service" element={<AddService />} />
    <Route path="/pro/service/Modifier-Service/:serviceId" element={<UpdateService/>} />
    <Route path="/pro/service"  >
